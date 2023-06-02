@@ -11,7 +11,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="stylesheet" href="src/styles.css" /> <!-- watch your hierarchy and name. you have this looking for a subdirectory "src" then a file "styles.css" when your structure shows no subdir and the file called "style.css"-->
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
@@ -76,6 +76,6 @@
         </div>
       </div>
     </div>
-    <script src="src/index.js"></script>
+    <script src="src/index.js"></script> <!-- see my above comment about hierarchy. it's looking for src subdirectory, then index.js. your repo doesn't have the sub directory, so it's not finding the script-->
   </body>
 </html>
